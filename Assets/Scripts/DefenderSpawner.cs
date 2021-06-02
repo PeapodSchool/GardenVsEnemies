@@ -16,7 +16,6 @@ public class DefenderSpawner : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Debug.Log("CLICK!!!!!!!");
         Vector2 worldPos = GetSquareClicked();
 
     }
@@ -32,6 +31,7 @@ public class DefenderSpawner : MonoBehaviour
             ScreenToWorldPoint(clickPos);
         Debug.Log("X = " + worldPos.x.ToString()
             + " Y = " + worldPos.y.ToString());
+        //Vector2 roundedPos = SnapToGrid(worldPos);
         return new Vector2();
     }
 }
