@@ -6,25 +6,30 @@ public class DefenderButton : MonoBehaviour
 {
 
     [SerializeField] Defender defenderPrefab;
+    DefenderButton[] buttons;
 
     private void OnMouseDown()
     {
-        var buttons = FindObjectsOfType<DefenderButton>();
+        TurnOffButtons(buttons);
+        GetComponent<SpriteRenderer>().color = Color
+            .white;
+        FindObjectOfType<DefenderSpawner>().
+            SetSelectedDefender(defenderPrefab);
+    }
+
+    private void TurnOffButtons(DefenderButton[] buttons)
+    {
         foreach (DefenderButton button in buttons)
         {
-            button.GetComponent<SpriteRenderer>().color = new Color32(41, 41, 41, 255);
+            button.GetComponent<SpriteRenderer>()
+                .color = new Color32(130, 105, 105, 255);
         }
-        GetComponent<SpriteRenderer>().color = Color.white;
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        var buttons = FindObjectsOfType<DefenderButton>();
-        foreach (DefenderButton button in buttons)
-        {
-            button.GetComponent<SpriteRenderer>().color = new Color32(41, 41, 41, 255);
-        }
+        buttons = FindObjectsOfType<DefenderButton>();
+        TurnOffButtons(buttons);
     }
 }
