@@ -457,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134854430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.362171, y: 2.189863, z: -1.7900391}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 705369289}
@@ -493,7 +493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298868644}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1378288, y: -0.18986297, z: 1.7900391}
+  m_LocalPosition: {x: 10.5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 134854431}
@@ -511,8 +511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba308dbe835b7d644bfd2141866fe4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 7
+  maxSpawnTime: 10
   enemyPrefabArray:
   - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
 --- !u!1 &305117501
@@ -1018,8 +1018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba308dbe835b7d644bfd2141866fe4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 7
+  maxSpawnTime: 10
   enemyPrefabArray:
   - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
 --- !u!4 &705369289
@@ -1030,7 +1030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705369287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1378288, y: -1.189863, z: 1.7900391}
+  m_LocalPosition: {x: 10.5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 134854431}
@@ -1826,7 +1826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847287304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1378288, y: 1.810137, z: 1.7900391}
+  m_LocalPosition: {x: 10.5, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 134854431}
@@ -1844,8 +1844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba308dbe835b7d644bfd2141866fe4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 7
+  maxSpawnTime: 10
   enemyPrefabArray:
   - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
 --- !u!1 &1944021913
@@ -1873,7 +1873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944021913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1378288, y: 0.81013703, z: 1.7900391}
+  m_LocalPosition: {x: 10.5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 134854431}
@@ -1891,8 +1891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba308dbe835b7d644bfd2141866fe4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 7
+  maxSpawnTime: 10
   enemyPrefabArray:
   - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
 --- !u!1 &2003318134
@@ -1920,7 +1920,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003318134}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1378288, y: 2.810137, z: 1.7900391}
+  m_LocalPosition: {x: 10.5, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 134854431}
@@ -1938,8 +1938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba308dbe835b7d644bfd2141866fe4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 7
+  maxSpawnTime: 10
   enemyPrefabArray:
   - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
 --- !u!1 &2040773182

@@ -32,6 +32,7 @@ public class EnemySpawner : MonoBehaviour
     {
         Enemy newEnemy = Instantiate(enemy,
             transform.position, Quaternion.identity);
+        newEnemy.transform.parent = transform;
     }
 
     public void StopSpawn()
