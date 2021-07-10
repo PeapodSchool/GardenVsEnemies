@@ -1091,7 +1091,7 @@ MonoBehaviour:
   minSpawnTime: 7
   maxSpawnTime: 10
   enemyPrefabArray:
-  - {fileID: 7069254681538672619, guid: 9e3765d2de3a2304e9e466300875afe6, type: 3}
+  - {fileID: 359321837438453738, guid: d9e290c7a350ded48b925a256e20be31, type: 3}
 --- !u!4 &705369289
 Transform:
   m_ObjectHideFlags: 0
