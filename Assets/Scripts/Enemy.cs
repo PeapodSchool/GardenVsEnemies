@@ -17,6 +17,11 @@ public class Enemy : MonoBehaviour
         UpdateAnimationState();
     }
 
+    private void OnDestroy()
+    {
+        FindObjectOfType<LevelController>().AttackerKilled();
+    }
+
     public void SetMoveSpeed(float speed)
     {
         moveSpeed = speed;
