@@ -32,6 +32,8 @@ public class EnemySpawner : MonoBehaviour
     {
         Enemy newEnemy = Instantiate(enemy,
             transform.position, Quaternion.identity);
+        newEnemy.transform.parent = transform;
+        FindObjectOfType<LevelController>().AttackerSpawned();
     }
 
     public void StopSpawn()
